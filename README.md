@@ -27,3 +27,7 @@ passport.use(new (require('passport-cas-kth').Strategy)({
 ```
 
 * register `<your-app-url-or-server>` in your CAS server
+
+## start
+
+`node bin/www`
